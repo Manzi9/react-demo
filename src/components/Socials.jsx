@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 class Socials extends Component {
   render() {
+    //Do I wrap socials in a Div or have indiviual files for each one?
     return (
       <div className="Socials">
         <img
