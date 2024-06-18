@@ -1,13 +1,18 @@
 import React, { Component } from "react";
-import Section from "./Section"; //filepath is underlined red again
+import JobTitle from "./JobTitle"; //filepath is underlined red again
+import JobDesc from "./JobDesc"; //filepath is underlined red again
 
 class Jobs extends Component {
   render() {
     return (
       <main>
-        <Section title={"LAVOIE"} />
-        <Section title={"FuroSystems"} />
-        <Section title={"Canyon Bikes"} />
+        <JobTitle title={"LAVOIE"} />
+        <JobDesc title={"Job Description"} />
+        {/* Do I just paste the entire job Description here? */}
+        <JobTitle title={"FuroSystems"} />
+        <JobDesc title={"Job Description"} />
+        <JobTitle title={"Canyon Bikes"} />
+        <JobDesc title={"Job Description"} />
       </main>
     );
   }
