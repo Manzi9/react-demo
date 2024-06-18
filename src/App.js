@@ -1,14 +1,18 @@
 import React, { Component } from "react";
-import Header from "./components/Header";
+import Header from "./components/Header"; //Why is this highligted with an error?
 import Footer from "./components/Footer";
-import Main from "./components/Main";
+import Jobs from "./components/Jobs";
+import Socials from "./components/Socials";
+import Skills from "./components/Skills";
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header />
-        <Main />
+        <Socials />
+        <Jobs />
+        <Skills />
         <Footer />
       </div>
     );
