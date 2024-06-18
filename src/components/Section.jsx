@@ -4,7 +4,7 @@ class Section extends Component {
   render() {
     return (
       <section>
-        <h2>Job</h2>
+        <h2>{this.props.title}</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
           incidunt enim doloribus cumque! Esse quas et modi iste adipisci,

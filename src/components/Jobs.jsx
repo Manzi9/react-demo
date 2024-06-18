@@ -5,8 +5,9 @@ class Jobs extends Component {
   render() {
     return (
       <main>
-        <Section />
-        <Section />
+        <Section title={"LAVOIE"} />
+        <Section title={"FuroSystems"} />
+        <Section title={"Canyon Bikes"} />
       </main>
     );
   }
